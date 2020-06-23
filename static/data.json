@@ -1,39 +1,22 @@
 {
   "people": [
     {
+      "id": 1,
       "name": "Diadji Ndiaye",
       "age": "24",
       "country": "Senegal"
     },
     {
-      "name": "Diadji Ndiaye",
-      "age": "24",
-      "country": "Senegal"
+      "id": 2,
+      "name": "Nare Armele",
+      "age": "22",
+      "country": "Burkinafaso"
     },
     {
-      "name": "Diadji Ndiaye",
-      "age": "24",
-      "country": "Senegal"
-    },
-    {
-      "name": "Diadji Ndiaye",
-      "age": "24",
-      "country": "Senegal"
-    },
-    {
-      "name": "Diadji Ndiaye",
-      "age": "24",
-      "country": "Senegal"
-    },
-    {
-      "name": "Diadji Ndiaye",
-      "age": "24",
-      "country": "Senegal"
-    },
-    {
+      "id": 3,
       "name": "Moussa Ndiaye",
-      "age": "50",
-      "country": "Senegal"
+      "age": "45",
+      "country": "Mali"
     }
   ]
 }

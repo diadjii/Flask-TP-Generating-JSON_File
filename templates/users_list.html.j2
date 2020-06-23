@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Liste des Utilisateurs</title>
+  </head>
+  <body>
+    <h2>Liste des Utilisateurs</h2>
+    <table border="2px" width="400px">
+      <thead>
+        <th>FullName</th>
+        <th>Age</th>
+        <th>Country</th>
+        <th>Edit</th>
+      </thead>
+      <tbody>
+        {% for people in peoples %}
+        <tr>
+          <td>{{people.name}}</td>
+          <td>{{people.age}}</td>
+          <td>{{people.country}}</td>
+          <td><a href="user/{{people.name}}/edit">edit</a></td>
+        </tr>
+        {%endfor%}
+      </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Liste des Utilisateurs</title>
+  </head>
+  <body>
+    <span>Modification Infos de <strong>{{people.name}}</strong></span><br><br>
+    <form action="/user/{{people.name}}/edit" method="post">
+      <label for="">Name</label>
+      <input type="text" name="name" value="{{people.name}}" width="65"><br><br>
+      <label for="">Age</label>
+      <input type="number" name="age" value="{{people.age}}" width="65px"><br><br>
+      <label for="">Country</label>
+      <input type="text" name="country" value="{{people.country}}" width="65px"><br><br>
+      <button type="submit">Enregistrer</button>
+    </form>
+  </body>
+</html>

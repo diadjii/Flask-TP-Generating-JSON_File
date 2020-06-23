@@ -1,22 +1,41 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Generating JSON File</title>
-    <style media="screen">
+<head>
+  <meta charset="utf-8">
+  <title>Generating JSON File</title>
+  <style media="screen">
 
-    </style>
-  </head>
-  <body>
-    <h1>Welcome Geeks</h1>
-    <form action="/ajouter" method="post">
-      <label for="name">Name</label><br>
-      <input type="text" name="fullname" value=""><br>
-      <label for="">Age</label><br>
-      <input type="number" name="age" value="" ><br>
-      <label for="">Country</label><br>
-      <input type="text" name="country" value=""><br><br>
-      <button type="submit">Ajouter</button>
-    </form>
-  </body>
+  </style>
+</head>
+<body>
+  <h1>Welcome Geeks</h1>
+  <form action="/ajouter" method="post">
+    <label for="name">Name</label><br>
+    <input type="text" name="fullname" value=""><br>
+    <label for="">Age</label><br>
+    <input type="number" name="age" value="" ><br>
+    <label for="">Country</label><br>
+    <input type="text" name="country" value=""><br><br>
+    <button type="submit">Ajouter</button>
+  </form>
+  <hr>
+  <input type="number" min="0" name="fieldA" value="" placeholder="Champ A"><br>
+  <label for="">Champ B </label>
+  <select  name="fieldB">
+    <option value="default">Champ B</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+  </select><br>
+  <label for="">Champ C</label>
+  <select  name="fieldB">
+    <option value="default">Champ C</option>
+    <option value="un">un</option>
+    <option value="deux">deux</option>
+    <option value="trois">trois</option>
+  </select><br>
+  <input type="number" min="0" name="fieldD" value="" placeholder="Champ D">
+  <script src="{{ url_for('static', filename='js/jquery.min.js') }}" charset="utf-8"></script>
+  <script src="{{ url_for('static', filename='js/script.js') }}" charset="utf-8"></script>
+</body>
 </html>
